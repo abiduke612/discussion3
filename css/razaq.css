@@ -1,11 +1,11 @@
 body {
-    background-color:rgba(251, 167, 234, 0.3);
+    background-color:rgba(167, 216, 251, 0.3);
     font-family: Arial, Helvetica, sans-serif;
  }
  
  h1 {
     text-align: center;
-    color: #314b60;
+    color: #000000;
     font-size: 45px;
     font-weight: bolder;
     line-height: 90px;
@@ -14,10 +14,10 @@ body {
  
  h2, h3 {
     text-align: center;
-    color: #314b60;
+    color: #3a99e7;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    background-color: rgba(203, 99, 227, 0.7);
+    background-color: rgba(8, 53, 1, 0.7);
  }
  
  .navigation ul {
@@ -32,7 +32,7 @@ body {
  }
  .navigation a {
     background: #395870;
-    background: linear-gradient(#49708f, #293f50);
+    background: linear-gradient(#6d8ba4, #293f50);
     border-right: 1px solid rgba(0, 0, 0, .3);
     color: #fff;
     padding: 12px 80px;
@@ -45,7 +45,7 @@ body {
  }
  ul {
     text-align: center;
-    color: #a741d3;
+    color: #090606;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin-left: 50px;
@@ -57,7 +57,7 @@ body {
  }
  
  img {
-    border: 10px solid #a741d3;
+    border: 10px solid #c36027;
     padding: 15px;
  }
  .top {
@@ -88,4 +88,18 @@ body {
  }
  main {
     margin: auto;
+ }
+
+ .gallery {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    width: 90%;
+    border: 5px solid #00f;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+ }
+ .galler img{
+    width: 100%;
+    align-content: center;
  }
